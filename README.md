@@ -16,7 +16,7 @@ You can use your choice of editor. I prefer to user webstorm and sublimetext
 * Fork and clone the project:
 
 ```
-> $ git clone https://github.com/alicoding/react-webpack-babel.git
+> $ git clone https://github.com/shravanjha/BettingRisk.git
 ```
 
 Then install the dependencies:
@@ -43,7 +43,7 @@ If you want to run with webpack-dev-server simply run this command:
 > $ npm run dev
 ```
 
-Open the web browser to `http://localhost:8888/`
+Open the web browser to `http://localhost:8080/`
 
 ---
 ## Languages & tools
