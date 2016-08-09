@@ -1,0 +1,35 @@
+.settled-unusual{
+	width: 15px;
+	height: 15px;
+}
+.settled-unusual-color{
+	background-color: #ff6666;
+}
+.unsettled-unusual{
+	width: 15px;
+	height: 15px;
+}
+.unsettled-unusual-color{
+	background-color: #ff6666;
+}
+.unsettled-stake10{
+	width: 15px;
+	height: 15px;
+}
+.unsettled-stake10-color{
+	background-color: #b30000;
+}
+.unsettled-stake30{
+	width: 15px;
+	height: 15px;
+}
+.unsettled-stake30-color{
+	background-color: #660000;
+}
+.unsettled-1000{
+	width: 15px;
+	height: 15px;
+}
+.unsettled-1000-color{
+	background-color: #330000;
+}
