@@ -10,24 +10,41 @@ You can use your choice of editor. I prefer to user webstorm and sublimetext
 
 ---
 
-## To Run
+### To run
 
-You'll need to have git and node installed in your system.
-Fork and clone the project:
-> $ git clone https://github.com/shravanjha/BettingRisk.git
+* You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
+* Fork and clone the project:
+
+```
+> $ git clone https://github.com/alicoding/react-webpack-babel.git
+```
+
 Then install the dependencies:
 
+```
 > $ npm install
+```
+
 Install webpack and the development server:
 
+```
 > $ npm i webpack-dev-server webpack -g
-You can simply run webpack build using this command:
+```
 
+You can simply run webpack build using this command: 
+
+```
 > $ npm run build
-If you want to run with webpack-dev-server simply run this command:
+```
 
+If you want to run with webpack-dev-server simply run this command: 
+
+```
 > $ npm run dev
-Open the web browser to http://localhost:8080/
+```
+
+Open the web browser to `http://localhost:8888/`
+
 ---
 ## Languages & tools
 
@@ -42,3 +59,5 @@ Open the web browser to http://localhost:8080/
 
 ### CSS
 - bootstrap css is used with some custom css
+
+Please contribute to the project if you think this can be done better in anyway even for this README :)
