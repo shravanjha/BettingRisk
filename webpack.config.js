@@ -20,6 +20,9 @@ module.exports = {
       { test: /\.csv$/, loader: 'dsv-loader' } //will load all .csv files with dsv-loader by default
     ]
   },
+  resolve: {
+        extensions: ['', '.js', '.jsx']
+  },
   output: {
     path: __dirname + "/src/",
     filename: "client.min.js"

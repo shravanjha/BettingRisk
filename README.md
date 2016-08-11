@@ -25,16 +25,10 @@ Then install the dependencies:
 > $ npm install
 ```
 
-Install webpack and the development server:
+You can simply test this app using this command: 
 
 ```
-> $ npm i webpack-dev-server webpack -g
-```
-
-You can simply run webpack build using this command: 
-
-```
-> $ npm run build
+> $ npm run test
 ```
 
 If you want to run with webpack-dev-server simply run this command: 
@@ -56,6 +50,7 @@ Open the web browser to `http://localhost:8080/`
 - [UglifyJs] is used for js minification
 - Webpack is used to manage module and dependencies and build
 - dsv-loader node packag is used to read csv and convert to json
+- Karma, Mocha as a testing framework
 
 ### CSS
 - bootstrap css is used with some custom css
