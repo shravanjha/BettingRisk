@@ -1,12 +1,19 @@
 # BettingRisk
-A reactjs app to display betting risk based on csv data
+A reactjs app to display betting risk based on csv data. 
+
+Best parctise had been followed in setting up this front-end app.
+
+Scope of improvements:
+More unit test cases can be added.
+CSS can be improved a bit more.
+
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
 You can use your choice of editor. I prefer to user webstorm and sublimetext
 
 ## Technology
- - react, flux, css, html5, webpack
+ - react, flux, css, html5, webpack, karma, mocha
 
 ---
 
