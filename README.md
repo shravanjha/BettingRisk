@@ -1,5 +1,28 @@
 # BettingRisk
 A reactjs app to display betting risk based on csv data. 
+Tech Challenge For this exercise, please create a simple risk application.  
+
+Data Files and Description: 
+
+“Settled.csv” 
+    Customer - a customer identifier 
+    Event - event identifier 
+    Participant participant identifier
+    Stake - dollar amount bet 
+    Win - dollar amount won (zero if bet not won) 
+    
+ “Unsettled.csv” 
+    Customer - a customer identifier 
+    Event - event identifier 
+    Participant - participant identifier 
+    Stake - dollar amount bet 
+    To Win - dollar amount that will be won if bet is successful 
+
+Tasks 
+
+1. In your “user interface” (the form the interface takes is open to your interpretation), identify settled bet history for a customer that shows they are winning at an unusual rate, where the business rule is: a. A customer wins on more than 60% of their bets (i.e. in the settled bets data, they have a value in the “win” column for more than 60% of their bets)  
+
+2. Identify unsettled bets that exhibit high risk characteristics, where risky bets are defined as: a. All upcoming (i.e. unsettled) bets from customers that win at an unusual rate should be highlighted as risky (it is up to you how this is shown) b. Bets where the stake is more than 10 times higher than that customer’s average bet in their betting history should be highlighted as unusual (again, it is up to you how this is shown) c. Bets where the stake is more than 30 times higher than that customer’s average bet in their betting history should be highlighted as highly unusual d. Bets where the amount to be won is $1000 or more. 
 
 Best parctise had been followed in setting up this front-end app.
 
